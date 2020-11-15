@@ -8,6 +8,7 @@
 
 
 body {
+    background-color: antiquewhite;
     height: 100%;
     font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
     margin: 0
@@ -28,9 +29,8 @@ header {
     height: 6em;
     width: 100%;
     display: flex;
-    position: fixed;
+    position: absolute;
     z-index: 1;
-    background-color: white;
     top: 0;
     max-width: 1300px
 }
@@ -101,34 +101,32 @@ em {
 }
 
 section {
+
+    moz-border-top-colors: #897048 #917953 #a18a66 #b6a488 #c5b59b #d4c5ae #e2d6c4 #eae1d2;
+    box-shadow: 5PX -5px 10px #aaa;
+    margin-left: 5em;
+
+   background-color: white;
     display: inline-flex;
     padding-top: 5rem;
     clear: both;
-    width: 100%;
+    width: 85%;
+    margin-bottom: 5em;
 }
 section:first-of-type {
     margin-top:10rem;
+    padding-top: 0;
 }
 
 .banner {
-    background:url(images/london.jpg)no-repeat scroll center 0/cover;
-    width: 50%;
+    background: url(images/london.jpg)no-repeat scroll center 0/cover;
+    width: 33%;
     color: white;
-    display: flex;
     justify-content: space-between;
-    align-items: center;
     height: 30em;
 }
 
 
-.banner:after {
-    position: absolute;
-    content: "";
-    BORDER-BOTTOM: 5px solid var(--blue);
-    width: 17%;
-    bottom: 0;
-
-}
 
 .text-banner {
     margin-right: 60vh;
@@ -484,9 +482,7 @@ figure:hover figcaption{
 }
 
 @media all and (min-width: 768px) and (max-width: 1291px) {
-    nav {
-        width: auto;
-    }
+
     .wrapper {
         flex-wrap: wrap;
         width: 100%;
@@ -518,9 +514,9 @@ figure:hover figcaption{
         height: 6em;
         width: 100vw;
         display: flex;
-        position: fixed;
+        position: absolute;
         z-index: 1;
-        background-color: white;
+
         top: 0;
     }
 
