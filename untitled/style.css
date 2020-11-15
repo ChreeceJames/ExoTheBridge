@@ -101,6 +101,7 @@ em {
 }
 
 section {
+    display: inline-flex;
     padding-top: 5rem;
     clear: both;
     width: 100%;
@@ -133,17 +134,7 @@ section:first-of-type {
     margin-right: 60vh;
 }
 
-.blueButton {
-    padding: 1em;
-    background-color: var(--blue);
-    width: max-content;
-    /* margin-left: 17vw; */
-    border-radius: .5em;
-    border:0;
-    cursor: pointer;
-    color: white;
-    box-shadow: 0 3px 0  var(--darkBlue);
-}
+
 
 .service {
     POSITION: RELATIVE;
@@ -550,7 +541,7 @@ figure:hover figcaption{
     }
 
     .banner {
-        background: url(../images/slider/bg1.jpg) no-repeat scroll center 0/cover;
+        background: url(images/london.jpg) no-repeat scroll center 0/cover;
         width: 100vw;
         color: white;
         display: flex;
@@ -601,13 +592,5 @@ figure:hover figcaption{
         margin-bottom: auto;
     }
 
-    .blueButton {
-        padding: 1em;
-        background-color: var(--blue);
-        border-radius: .5em;
-        border: 0;
-        cursor: pointer;
-        color: white;
-        box-shadow: 0 3px 0 var(--darkBlue);
-    }
+
 }
