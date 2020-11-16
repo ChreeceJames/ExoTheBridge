@@ -38,7 +38,7 @@ header {
 .logo {
 
     margin: 1em;
-    background-image: url(../images/logo.png);
+    background-image: url(images/logo.png);
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
@@ -120,7 +120,7 @@ section:first-of-type {
 
 .banner {
     background: url(images/london.jpg)no-repeat scroll center 0/cover;
-    width: 33%;
+    width: 50%;
     color: white;
     justify-content: space-between;
     height: 30em;
@@ -128,8 +128,13 @@ section:first-of-type {
 
 
 
-.text-banner {
-    margin-right: 60vh;
+.text-banner
+ {
+    text-align: center;
+    width: fit-content;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 50px;
 }
 
 
@@ -502,10 +507,7 @@ figure:hover figcaption{
         bottom: 100vh;
     }
 
-    .text-banner {
-        margin-left: 1em;
-        margin-right: auto;
-    }
+
 }
 
 
@@ -532,9 +534,6 @@ figure:hover figcaption{
         border-top: 2px solid transparent;
     }
 
-    .text-banner {
-        margin-right: auto;
-    }
 
     .banner {
         background: url(images/london.jpg) no-repeat scroll center 0/cover;
