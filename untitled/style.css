@@ -26,7 +26,6 @@ a {
 }
 
 header {
-    height: 6em;
     width: 100%;
     display: flex;
     position: absolute;
@@ -41,7 +40,6 @@ header {
     background-image: url(images/logo.png);
     background-size: contain;
     background-repeat: no-repeat;
-    background-position: center;
     width:261px;
 }
 
@@ -123,7 +121,7 @@ section:first-of-type {
     width: 50%;
     color: white;
     justify-content: space-between;
-    height: 30em;
+
 }
 
 
@@ -134,7 +132,6 @@ section:first-of-type {
     width: fit-content;
     margin-left: 20px;
     margin-right: 20px;
-    margin-top: 50px;
 }
 
 
@@ -181,6 +178,22 @@ section:first-of-type {
 }
 .bulletContainer {
     width: 150px;
+}
+
+#tete-de-page {
+    text-align: end;
+    margin-bottom: 5em;
+
+}
+
+#pied-de-page {
+    margin-top: 3em;
+    text-align: initial;
+    background-color: #f1eded;
+    width: 5.5em;
+    padding: 1.5px;
+    color: grey;
+
 }
 
 #Projets .Cadres {
@@ -513,7 +526,7 @@ figure:hover figcaption{
 
 @media all and (max-width: 767px) and (min-width: 320px) {
     header {
-        height: 6em;
+
         width: 100vw;
         display: flex;
         position: absolute;
